@@ -1,6 +1,7 @@
 # Paidar — Project Charter
 
-
+| | |
+|---|---|
 | **Project** | Paidar (pronounced "PAY-dar"): receivables intelligence and collections automation for SMEs |
 | **Author / owner** | Mohamad Zarif |
 | **Version** | 1.0 (Milestone 0 draft) |
@@ -145,7 +146,7 @@ All business objectives apply to the fictional scenario and are **simulated**. T
 4. Which payments could not be matched to an invoice?
 5. Which reminders were sent, to whom, and what happened next?
 
-**Scope control.** Phase 1 scope is frozen after Milestone 2. Any change is recorded as a decision in `docs/decisions.md` before work starts. New ideas go to a parking-lot list in the backlog.
+**Scope control.** Phase 1 scope is frozen after Milestone 2. Any change is written into the change log at the end of this charter before work starts. New ideas go to a parking-lot list in the backlog.
 
 ---
 
@@ -226,7 +227,7 @@ Every assumption below is **unvalidated** until Milestone 1. Each will be given 
 
 | # | Risk | Likelihood | Impact | Early warning sign | Mitigation |
 |---|---|---|---|---|---|
-| R-1 | **Scope creep** (adding tools and features that delay a finished project) | High | High | A milestone takes more than 1.5 times its planned time; new tools appear that are not in the plan | Freeze Phase 1 after Milestone 2; record changes as decisions; keep a parking-lot list; use a definition of done for every milestone |
+| R-1 | **Scope creep** (adding tools and features that delay a finished project) | High | High | A milestone takes more than 1.5 times its planned time; new tools appear that are not in the plan | Freeze Phase 1 after Milestone 2; record changes in the change log; keep a parking-lot list; use a definition of done for every milestone |
 | R-2 | **Synthetic-data credibility** ("you built the data to fit your solution") | Medium | High | Results look too good, such as 100% matching | Document generator assumptions and randomness; inject noise and hard cases (partial, multi-invoice and over-payments); keep a hard-case set that is not used for tuning; report recall and manual-review share honestly; never claim real-world accuracy or ROI; optionally check the analytics on the CC BY 4.0 Online Retail II dataset for realistic invoice patterns |
 | R-3 | **Domain-knowledge gap and unvalidated assumptions** about receivables practice and Lebanese payment habits | Medium | High | I cannot explain a KPI or rule in plain language; assumptions have no source | Do an accounts-receivable primer and a competitor scan in Milestone 1; keep an assumption log with ranges and a sensitivity analysis; optionally talk to one or two accountants and report them only as discovery input; label anything unvalidated |
 
@@ -240,4 +241,4 @@ Every assumption below is **unvalidated** until Milestone 1. Each will be given 
 |---|---|---|
 | 1.0 | 23 October 2026 | Initial draft for Milestone 0 |
 
-**Next review:** end of Milestone 1. Charter changes are recorded in `docs/decisions.md`.
+**Next review:** end of Milestone 1. Charter changes are recorded in the change log above.

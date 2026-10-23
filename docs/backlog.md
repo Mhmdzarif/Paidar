@@ -7,7 +7,7 @@ Every milestone shares the same definition of done:
 
 - Deliverables are committed to the repository.
 - Verification steps were run and the evidence saved.
-- Documentation is updated (README status, decision log if a decision was made).
+- Documentation is updated (README status).
 - I can explain the milestone in 60 seconds, as I would in an interview.
 
 Planned deliverables for Milestones 1 to 11 are drafts. They are refined when each milestone starts.
@@ -20,18 +20,16 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 **Code:** Tiny (database connection check)
 
 ### Checklist
-- [x] Hardware audit recorded in `docs/system-audit.md`
 - [x] Git installed and configured
 - [x] Public repo `paidar` created and cloned (MIT licence, Python `.gitignore`)
 - [x] Python 3.12 or 3.13 installed; virtual environment working
 - [x] PostgreSQL 17 running; `psql` works
-- [ ] Database `paidar` owned by role `paidar_user` with a real password (verify with `\du` and `\l`)
+- [x] Database `paidar` owned by role `paidar_user` with a real password (verify with `\du` and `\l`)
 - [x] `.env` created; `.env.example` committed; `.env` is not tracked by Git
 - [x] `src/check_db.py` prints the PostgreSQL 17 version
 - [x] Folder structure and README header committed
 - [x] `COST_LOG.md` completed (version, licence link and date checked for every tool)
-- [x] `docs/decisions.md` contains ADR-001 and ADR-002
-- [ ] `docs/00-project-charter.md` written, reviewed and committed
+- [ ] `docs/project-charter.md` written, reviewed and committed
 - [ ] `docs/backlog.md` committed
 - [ ] At least four meaningful commits pushed; no old project names left in the repo
 - [ ] README status line changed to "Milestone 0 complete"
@@ -39,7 +37,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M1: Discovery
@@ -62,7 +60,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M2: Requirements
@@ -83,7 +81,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M3: Data model and generator
@@ -103,7 +101,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M4: Ingestion and validation
@@ -122,7 +120,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M5: Matching engine
@@ -141,7 +139,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M6: SQL marts and dashboard
@@ -160,7 +158,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M7: Core automation
@@ -180,7 +178,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M8: Advanced automation
@@ -200,7 +198,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M9: Impact and analysis
@@ -218,7 +216,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M10: Hardening
@@ -237,7 +235,7 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
 
 ## M11: Polish
@@ -258,5 +256,5 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 ### Definition of done
 - [ ] Deliverables committed to the repo
 - [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status, decision log if needed)
+- [ ] Docs updated (README status)
 - [ ] I can explain this milestone in 60 seconds
