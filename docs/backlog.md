@@ -28,11 +28,11 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 - [x] `.env` created; `.env.example` committed; `.env` is not tracked by Git
 - [x] `src/check_db.py` prints the PostgreSQL 17 version
 - [x] Folder structure and README header committed
-- [x] `COST_LOG.md` completed (version, licence link and date checked for every tool)
-- [ ] `docs/project-charter.md` written, reviewed and committed
-- [ ] `docs/backlog.md` committed
-- [ ] At least four meaningful commits pushed; no old project names left in the repo
-- [ ] README status line changed to "Milestone 0 complete"
+- [x] `docs/COST_LOG.md` completed (version, licence link and date checked for every tool)
+- [x] `docs/project_charter.md` written, reviewed and committed
+- [x] `docs/backlog.md` committed
+- [x] At least four meaningful commits pushed; no old project names left in the repo
+- [x] README status line changed to "Milestone 0 complete"
 
 ### Definition of done
 - [ ] Deliverables committed to the repo
