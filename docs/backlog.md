@@ -35,10 +35,10 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 - [x] README status line changed to "Milestone 0 complete"
 
 ### Definition of done
-- [ ] Deliverables committed to the repo
-- [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status)
-- [ ] I can explain this milestone in 60 seconds
+- [x] Deliverables committed to the repo
+- [x] Verification steps run and evidence saved
+- [x] Docs updated (README status)
+- [x] I can explain this milestone in 60 seconds
 
 ## M1: Discovery
 

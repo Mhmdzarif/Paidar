@@ -190,7 +190,7 @@ Every assumption below is **unvalidated** until Milestone 1. Each will be given 
 - **Local-first and reproducible.** Everything runs on one Windows 11 machine (16 GB RAM, 6 cores), and recruiters can reproduce it without accounts or credentials.
 - **Synthetic data only.** No real people, companies or transactions.
 - **Deterministic rules.** No paid or metered AI services.
-- **Licences.** Every tool is recorded in `COST_LOG.md` with its licence, version and date checked. Any change in licence or pricing triggers a replacement before work continues.
+- **Licences.** Every tool is recorded in `docs/COST_LOG.md` with its licence, version and date checked. Any change in licence or pricing triggers a replacement before work continues.
 - **Public repository,** so recruiters can read the work.
 
 ### Open questions
@@ -218,7 +218,7 @@ Every assumption below is **unvalidated** until Milestone 1. Each will be given 
 | SC-7 | Reconciliation effort | Modelled manual minutes versus automated runtime plus manual review (BO-1) | At least 70% reduction, as a low/base/high range, labelled simulated | 2 |
 | SC-8 | Reminder consistency | Reminder log versus the rules catalogue over the simulated period (BO-3) | 100% of overdue invoices get the correct stage within 1 business day | 1–2 |
 | SC-9 | Documentation | Checklist of: requirements document, 20 or more user stories with acceptance criteria, as-is and to-be process maps, ERD, data dictionary, architecture diagram, KPI definitions, test report, case study, 3-minute demo video | All present and linked from the README | 1–3 |
-| SC-10 | Cost | Review of `COST_LOG.md` | $0 spent; every tool shows "Payment details: No" | All |
+| SC-10 | Cost | Review of `docs/COST_LOG.md` | $0 spent; every tool shows "Payment details: No" | All |
 | SC-11 | Schedule | Dates on closed milestone issues | Phase 1 by week 5, Phase 2 by week 8, Phase 3 by week 10 (± 1 week) | All |
 
 ---
