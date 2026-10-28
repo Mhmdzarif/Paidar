@@ -6,7 +6,8 @@
 
 **Status:**
 Milestone 0 complete.
-Milestone 1 (discovery) in progress.
+Milestone 1 complete.
+Milestone 2 (Requirements) in progress.
 
 ## Documents
 - [Project charter](docs/project_charter.md)

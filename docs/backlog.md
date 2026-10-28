@@ -47,15 +47,12 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 **Tools in use:** Markdown, Mermaid or draw.io
 **Code:** No
 
-### Planned deliverables
-- Accounts-receivable vocabulary primer (invoice, due date, aging, DSO, partial payment, credit note)
-- Stakeholder analysis with a power/interest grid
-- As-is process map
-- Root-cause analysis (5 Whys or fishbone) testing hypotheses RC-1 to RC-5 from the charter
-- KPI definitions: aging buckets, DSO, overdue rate, collection effectiveness, match rate, manual touches per invoice
-- Baseline assumptions with ranges (A-01 to A-04)
-- Competitor scan from public marketing pages
-- Optional: one or two conversations with accountants, reported honestly as discovery input
+### Checklist
+- [x] `docs/discovery.md` committed (as-is process, root causes, baseline, competitor snapshot, open questions)
+- [x] `docs/kpi_definitions.md` committed (nine KPIs)
+- [x] Competitor rows checked against the official sites
+- [x] Mermaid diagram renders on GitHub
+- [x] README status updated
 
 ### Definition of done
 - [ ] Deliverables committed to the repo
