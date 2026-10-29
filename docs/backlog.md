@@ -55,10 +55,10 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 - [x] README status updated
 
 ### Definition of done
-- [ ] Deliverables committed to the repo
-- [ ] Verification steps run and evidence saved
-- [ ] Docs updated (README status)
-- [ ] I can explain this milestone in 60 seconds
+- [x] Deliverables committed to the repo
+- [x] Verification steps run and evidence saved
+- [x] Docs updated (README status)
+- [x] I can explain this milestone in 60 seconds
 
 ## M2: Requirements
 
@@ -67,13 +67,12 @@ Planned deliverables for Milestones 1 to 11 are drafts. They are refined when ea
 **Tools in use:** Markdown (GitHub Issues optional, decided in M2)
 **Code:** No
 
-### Planned deliverables
-- Business requirements document with functional and non-functional requirements
-- At least 20 user stories with acceptance criteria
-- Business-rules catalogue (reminder ladder, matching tolerances, currency handling)
-- Prioritised backlog (MoSCoW)
-- To-be process map
-- Traceability table linking requirements to charter objectives
+### Checklist
+- [x] `docs/requirements.md` committed (gap analysis, to-be map, functional and non-functional requirements)
+- [x] `docs/user_stories.md` committed (29 stories with acceptance criteria)
+- [x] `docs/business_rules.md` committed (matching, currency, reminders, risk segments)
+- [x] Defaults reviewed and changed where I disagree
+- [x] README links added
 
 ### Definition of done
 - [ ] Deliverables committed to the repo
